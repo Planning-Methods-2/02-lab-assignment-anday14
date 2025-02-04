@@ -10,7 +10,7 @@
 # 2. Learn about the different ways `R` can plot information
 # 3. Learn about the usage of the `ggplot2` package
 
-
+#test
 #---- Part 1: Loading data ----
 
 # Data can be loaded in a variety of ways. As always is best to learn how to load using base functions that will likely remain in time so you can go back and retrace your steps. 
