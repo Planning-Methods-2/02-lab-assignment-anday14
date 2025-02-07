@@ -84,11 +84,15 @@ ggsave(filename ="githubusername_p3.pdf", )
 
 ggplot(data = opportunities,aes(x= frac_coll_plus2000,y=hhinc_mean2000))+
   geom_point() +
-  labs(  title = "The Relationship between University Degrees and Household Income",
+  labs(  title = "Relationship between University Degrees and Household Income",
          subtitle = "Data from the year 2000" ,
          caption = "Table 9: Neighborhood Characteristics by Census Tract"
+  ) +
+  theme(
+    plot.title = element_text(size = 6),  
+    plot.subtitle = element_text(size = 8),  
+    plot.caption = element_text(size = 8) 
   )
 
-
-ggsave(filename ="githubusername_p_extra.pdf", )
+ggsave(filename ="githubusername_p_extra.pdf",)
 
